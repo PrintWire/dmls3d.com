@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DMLS 3D</title>
+    <link>https://dmls3d.com/</link>
+    <description>Recent content on DMLS 3D</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dmls3d.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DMLS Alloy Selection Guide: Which Metal for Your Application?</title>
+      <link>https://dmls3d.com/articles/alloy-selection-guide/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://dmls3d.com/articles/alloy-selection-guide/</guid>
+      <description>Six DMLS alloys cover 95% of production applications. This guide maps mechanical requirements to material selection with specific data from production builds.</description>
+    </item>
+    <item>
+      <title>DMLS Design Rules: Wall Thickness, Overhangs, Channels, and Support Strategy</title>
+      <link>https://dmls3d.com/articles/dmls-design-rules/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://dmls3d.com/articles/dmls-design-rules/</guid>
+      <description>The geometry constraints of DMLS are less restrictive than machining but more exacting than polymer 3D printing. Understanding these rules at the design stage eliminates the most expensive build failures.</description>
+    </item>
+    <item>
+      <title>About DMLS 3D</title>
+      <link>https://dmls3d.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dmls3d.com/about/</guid>
+      <description>&lt;h2 id=&#34;the-dmls-knowledge-hub&#34;&gt;The DMLS Knowledge Hub&lt;/h2&gt;&#xA;&lt;p&gt;DMLS 3D is the definitive technical resource for Direct Metal Laser Sintering —&#xA;the process that has become the backbone of metal additive manufacturing in aerospace,&#xA;medical devices, and industrial tooling. We cover process physics, alloy metallurgy,&#xA;design rules, post-processing requirements, and production qualification with the&#xA;specificity that engineers actually need.&lt;/p&gt;&#xA;&lt;p&gt;Ben Stagl (20-year fabrication veteran, SAIC professor in Architecture and Designed&#xA;Objects, sand-mold casting for the Uber HQ feature wall) and Max Davis (MAXCNC)&#xA;have spent careers at the intersection of design intent and manufacturing reality.&#xA;DMLS is the technology that most directly closes that gap for metal — and the one that&#xA;most demands genuine process understanding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Advertise on DMLS 3D</title>
+      <link>https://dmls3d.com/advertise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dmls3d.com/advertise/</guid>
+      <description>&lt;h2 id=&#34;advertise-on-dmls-3d&#34;&gt;Advertise on DMLS 3D&lt;/h2&gt;&#xA;&lt;p&gt;DMLS 3D is the highest-authority DMLS publication in the PrintWire network — and the&#xA;highest-value advertising placement for DMLS equipment manufacturers, powder suppliers,&#xA;and service bureaus. Our audience are the engineers who write DMLS into specifications&#xA;and the procurement managers who execute those specifications.&lt;/p&gt;&#xA;&lt;h3 id=&#34;audience-profile&#34;&gt;Audience Profile&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Job titles:&lt;/strong&gt; Mechanical engineer, materials engineer, aerospace structures lead, procurement manager, R&amp;amp;D director&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Aerospace (OEM and Tier 1), medical devices, defense, motorsport, industrial tooling&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Decision value:&lt;/strong&gt; DMLS part orders typically $5,000–$500,000; equipment purchases $300K–$1.5M&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;advertising-packages&#34;&gt;Advertising Packages&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Package&lt;/th&gt;&#xA;          &lt;th&gt;Rate&lt;/th&gt;&#xA;          &lt;th&gt;Placement&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Banner Ad (728×90)&lt;/td&gt;&#xA;          &lt;td&gt;$500/month&lt;/td&gt;&#xA;          &lt;td&gt;Homepage leaderboard&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Sponsored Content&lt;/td&gt;&#xA;          &lt;td&gt;$1,200/month&lt;/td&gt;&#xA;          &lt;td&gt;Technical guide feature&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Flagship Network&lt;/td&gt;&#xA;          &lt;td&gt;$3,500/month&lt;/td&gt;&#xA;          &lt;td&gt;All PrintWire metal AM sites&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Exclusive Sponsorship&lt;/td&gt;&#xA;          &lt;td&gt;$10,000/month&lt;/td&gt;&#xA;          &lt;td&gt;Full site takeover, all placements&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;Priority advertisers:&lt;/strong&gt; EOS, Trumpf, SLM Solutions, 3D Systems, Renishaw, Xometry,&#xA;Protolabs, Materialise, AP&amp;amp;C, Höganäs (powder), Bodycote (HIP), Curtiss-Wright (NDE).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://dmls3d.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dmls3d.com/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DMLS Services</title>
+      <link>https://dmls3d.com/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dmls3d.com/services/</guid>
+      <description>&lt;h2 id=&#34;dmls-production-parts&#34;&gt;DMLS Production Parts&lt;/h2&gt;&#xA;&lt;p&gt;DMLS produces fully dense metal parts (99.5% theoretical density) directly from&#xA;CAD files, without tooling, in 5–10 business days. Certified alloys with full&#xA;mechanical data:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Alloy&lt;/th&gt;&#xA;          &lt;th&gt;UTS&lt;/th&gt;&#xA;          &lt;th&gt;Density&lt;/th&gt;&#xA;          &lt;th&gt;Application&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Ti6Al4V&lt;/td&gt;&#xA;          &lt;td&gt;993–1,055 MPa&lt;/td&gt;&#xA;          &lt;td&gt;4.43 g/cm³&lt;/td&gt;&#xA;          &lt;td&gt;Aerospace, medical&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;17-4 PH SS&lt;/td&gt;&#xA;          &lt;td&gt;1,365–1,372 MPa&lt;/td&gt;&#xA;          &lt;td&gt;7.78 g/cm³&lt;/td&gt;&#xA;          &lt;td&gt;Tooling, aerospace&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;316L SS&lt;/td&gt;&#xA;          &lt;td&gt;565–586 MPa&lt;/td&gt;&#xA;          &lt;td&gt;7.99 g/cm³&lt;/td&gt;&#xA;          &lt;td&gt;Chemical, medical&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;AlSi10Mg&lt;/td&gt;&#xA;          &lt;td&gt;268–345 MPa&lt;/td&gt;&#xA;          &lt;td&gt;2.67 g/cm³&lt;/td&gt;&#xA;          &lt;td&gt;Lightweight structures&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Inconel 718&lt;/td&gt;&#xA;          &lt;td&gt;958 MPa&lt;/td&gt;&#xA;          &lt;td&gt;8.19 g/cm³&lt;/td&gt;&#xA;          &lt;td&gt;High-temperature&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;CoCrMo&lt;/td&gt;&#xA;          &lt;td&gt;1,213–1,255 MPa&lt;/td&gt;&#xA;          &lt;td&gt;8.30 g/cm³&lt;/td&gt;&#xA;          &lt;td&gt;Dental, orthopedic&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;Build envelopes: 9.6&amp;quot; × 9.6&amp;quot; × 13&amp;quot; standard; 31.5&amp;quot; × 15.7&amp;quot; × 19.7&amp;quot; large-format.&#xA;Tolerances: ±0.003&amp;quot; + ±0.001&amp;quot;/in accumulated. Minimum feature: 0.006&amp;quot;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Direct Metal Laser Sintering — the definitive technical resource for DMLS process guides, alloy specs, design rules, and certified production services.">
+
+<meta property="og:title" content="DMLS Design Rules: Wall Thickness, Overhangs, Channels, and Support Strategy | DMLS 3D">
+<meta property="og:description" content="Direct Metal Laser Sintering — the definitive technical resource for DMLS process guides, alloy specs, design rules, and certified production services.">
+<meta property="og:type" content="website">
+
+<meta property="og:image" content="https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1200&amp;q=80">
+<meta name="author" content="Max Davis, Ben Stagl, Ally Reza - ChiLab Studio">
+<title>DMLS Design Rules: Wall Thickness, Overhangs, Channels, and Support Strategy — DMLS 3D</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@300;400;600;700&family=DM%20Sans:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://dmls3d.com/css/style.css">
+<link rel="icon" href="https://dmls3d.com/favicon.svg" type="image/svg+xml">
+
+
+
+<style>:root{--primary:#c2714f;--primary-dark:#a85e3e;--primary-light:#d4896b;--bg-dark:#0d0b09;--bg-section:#111009;--bg-card:#1a1510;--bg-card-hover:#231d15;--border:rgba(194,113,79,0.18);--border-light:rgba(194,113,79,0.08);}</style>
+
+
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "DMLS 3D",
+    "url": "https:\/\/dmls3d.com\/",
+    "description": "Direct Metal Laser Sintering — the definitive technical resource for DMLS process guides, alloy specs, design rules, and certified production services.",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "url": "https:\/\/dmls3d.com\/contact/"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "DMLS 3D",
+    "url": "https:\/\/dmls3d.com\/"
+  }
+  ,
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "",
+    "provider": {
+      "@type": "Organization",
+      "name": "DMLS 3D",
+      "url": "https:\/\/dmls3d.com\/"
+    },
+    "url": "https:\/\/dmls3d.com\/services/"
+  }
+  ,
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "",
+    "provider": {
+      "@type": "Organization",
+      "name": "DMLS 3D",
+      "url": "https:\/\/dmls3d.com\/"
+    },
+    "url": "https:\/\/dmls3d.com\/services/"
+  }
+  ,
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "",
+    "provider": {
+      "@type": "Organization",
+      "name": "DMLS 3D",
+      "url": "https:\/\/dmls3d.com\/"
+    },
+    "url": "https:\/\/dmls3d.com\/services/"
+  }
+  ,
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "",
+    "provider": {
+      "@type": "Organization",
+      "name": "DMLS 3D",
+      "url": "https:\/\/dmls3d.com\/"
+    },
+    "url": "https:\/\/dmls3d.com\/services/"
+  }
+  
+]
+</script>
+
+
+
+
+
+
+<script>window.SITE_CONFIG={"newsFallbackImages":["images/01.png","images/02.png","images/03.png"],"pubmedFallback":"3D printing","pubmedQuery":"DMLS+direct+metal+laser+sintering+additive+manufacturing+metal+3D+printing"};</script>
+
+    
+</head>
+<body>
+    <header class="site-header">
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="https://dmls3d.com/" class="nav-logo">
+                
+                <span class="logo-text">DMLS 3D</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                
+            </ul>
+        </div>
+    </nav>
+</header>
+
+    <main id="main-content">
+        
+
+
+<section class="page-hero article-hero">
+  <div class="page-hero-bg">
+    
+    
+    <img src="https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1200&amp;q=80" alt="DMLS 3D" loading="eager">
+    
+    
+  </div>
+  <div class="page-hero-overlay"></div>
+  <div class="page-hero-content">
+    <div style="max-width:800px;">
+      
+      <h1>DMLS Design Rules: Wall Thickness, Overhangs, Channels, and Support Strategy</h1>
+      
+      <p class="page-hero-subtitle">The geometry constraints of DMLS are less restrictive than machining but more exacting than polymer 3D printing. Understanding these rules at the design stage eliminates the most expensive build failures.</p>
+      
+    </div>
+  </div>
+</section>
+
+
+<section class="article-body">
+  <div class="article-container">
+
+    <div class="article-back">
+      <a href="https://dmls3d.com/articles/">&larr; All Articles</a>
+    </div>
+
+    <div class="article-meta">
+      
+      <span class="article-meta-item">
+        <strong>Published</strong> March 8, 2026
+      </span>
+      
+      
+      
+      
+      <span class="article-tag">design rules</span>
+      
+      <span class="article-tag">DfAM</span>
+      
+      <span class="article-tag">support structures</span>
+      
+      <span class="article-tag">overhangs</span>
+      
+      <span class="article-tag">wall thickness</span>
+      
+    </div>
+
+    <div class="article-content">
+      <p>DMLS gives engineers access to geometry that machining cannot produce — but that
+freedom has hard limits defined by laser spot size, powder layer physics, and thermal
+gradients. Violating these rules produces parts that warp, crack, or fail inspection.
+Following them produces parts that outperform castings.</p>
+<h2 id="wall-thickness">Wall Thickness</h2>
+<p><strong>Minimum wall thickness:</strong> 0.4 mm for vertical walls; 0.6 mm recommended for structural walls.</p>
+<p>Walls thinner than 0.4 mm absorb so much laser energy per unit area that the surrounding
+powder zone melts, causing thermal distortion and potential keyhole porosity. For 17-4 PH
+and Inconel, which have higher thermal conductivity, minimum is effectively 0.5 mm.</p>
+<p>For titanium (lower conductivity), 0.3 mm is achievable but requires careful laser parameter
+management and is not standard in production.</p>
+<h2 id="overhangs-and-support-angles">Overhangs and Support Angles</h2>
+<p><strong>Self-supporting threshold:</strong> 45° from horizontal (in most alloys).</p>
+<p>Geometry angled below 45° (measured from the build plate) requires support structures.
+Supports serve two functions: mechanical (preventing warping from residual stress) and
+thermal (conducting heat away from overhanging geometry). Unsupported overhangs below
+30° virtually always fail.</p>
+<p>Design strategies to reduce supports:</p>
+<ul>
+<li>Orient the part so overhangs are above 45°</li>
+<li>Use chamfers instead of horizontal ledges</li>
+<li>Use diamond/teardrop cross-sections instead of round for downward-facing channels</li>
+<li>Add internal chamfers on holes parallel to build direction</li>
+</ul>
+<h2 id="internal-channels">Internal Channels</h2>
+<p><strong>Minimum diameter for self-supporting channels:</strong> 8 mm (horizontal). Below this, channels
+form a &ldquo;smile&rdquo; cross-section — the bottom deforms due to lack of support.</p>
+<p>For channels &lt; 8 mm horizontal: use diamond or teardrop cross-section, or orient
+channel parallel to build direction.</p>
+<p><strong>Powder removal:</strong> All internal channels must have entry/exit paths for loose powder removal.
+Minimum 2 access ports per channel. Curved channels must have sufficient diameter for
+powder to flow out by gravity and compressed air.</p>
+<h2 id="tolerances-in-practice">Tolerances in Practice</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Feature</th>
+          <th>Standard Tolerance</th>
+          <th>Tight (machined finish)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Linear dimension</td>
+          <td>±0.003&quot; + ±0.001&quot;/in</td>
+          <td>±0.001&quot;</td>
+      </tr>
+      <tr>
+          <td>Hole diameter</td>
+          <td>±0.005&quot;</td>
+          <td>±0.001&quot; (after bore)</td>
+      </tr>
+      <tr>
+          <td>Surface flatness</td>
+          <td>±0.005&quot;</td>
+          <td>±0.001&quot; (after mill)</td>
+      </tr>
+      <tr>
+          <td>Cylindricity</td>
+          <td>±0.005&quot;</td>
+          <td>±0.001&quot; (after turn)</td>
+      </tr>
+  </tbody>
+</table>
+<p>As-printed tolerances are adequate for non-mating surfaces. Functional surfaces
+(bearing bores, sealing faces, precision fits) require post-print machining.</p>
+
+    </div>
+
+    <div style="margin-top:3rem; padding-top:2rem; border-top:1px solid var(--border-light);">
+      <a href="https://dmls3d.com/articles/" class="btn btn-outline">&larr; Back to All Articles</a>
+    </div>
+
+  </div>
+</section>
+
+
+    </main>
+    <footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-main">
+            <div class="footer-brand">
+                <div class="footer-logo">DMLS 3D</div>
+                <p>Direct Metal Laser Sintering — the definitive technical resource for DMLS process guides, alloy specs, design rules, and certified production services.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="https://dmls3d.com/about/">About Us</a></li>
+                        <li><a href="https://dmls3d.com/services/">Services</a></li>
+                        <li><a href="https://dmls3d.com/contact/">Contact</a></li>
+                        <li><a href="https://dmls3d.com/advertise/">Advertise</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Articles</h4>
+                    <ul>
+                        <li><a href="https://dmls3d.com/articles/">All Articles</a></li>
+                        <li><a href="https://dmls3d.com/contact/">Contact Us</a></li>
+                        <li><a href="https://dmls3d.com/advertise/">Advertising</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 DMLS 3D. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://dmls3d.com/js/main.js"></script>
+
+
+<div style="background:#080705;border-top:1px solid var(--border-light);padding:0.75rem 1rem;text-align:center;overflow-x:auto;white-space:nowrap;">
+  <span style="color:var(--text-muted);font-size:0.75rem;margin-right:0.5rem;">NETWORK:</span>
+  <a href="https://dmls3d.com" style="color:var(--text-secondary);text-decoration:none;margin:0 0.5rem;font-size:0.8rem;">Metal 3D Printing</a>
+  <a href="https://metalpowder.co" style="color:var(--text-secondary);text-decoration:none;margin:0 0.5rem;font-size:0.8rem;">Metal Powder</a>
+  <a href="https://3dprintfood.com" style="color:var(--text-secondary);text-decoration:none;margin:0 0.5rem;font-size:0.8rem;">Food Printing</a>
+  <a href="https://3dprintceramic.com" style="color:var(--text-secondary);text-decoration:none;margin:0 0.5rem;font-size:0.8rem;">Ceramic Printing</a>
+  <a href="https://3dprintcircuitry.com" style="color:var(--text-secondary);text-decoration:none;margin:0 0.5rem;font-size:0.8rem;">Electronics Printing</a>
+  <a href="https://3dprintjewelry.com" style="color:var(--text-secondary);text-decoration:none;margin:0 0.5rem;font-size:0.8rem;">Jewelry Printing</a>
+  <a href="https://3dprintarchitecture.com" style="color:var(--text-secondary);text-decoration:none;margin:0 0.5rem;font-size:0.8rem;">Architecture Printing</a>
+  <a href="https://3dprintpipes.com" style="color:var(--text-secondary);text-decoration:none;margin:0 0.5rem;font-size:0.8rem;">Industrial Printing</a>
+  <a href="https://sendcutship.com" style="color:var(--text-secondary);text-decoration:none;margin:0 0.5rem;font-size:0.8rem;">Manufacturing</a>
+  <a href="https://3dprintskincare.com" style="color:var(--text-secondary);text-decoration:none;margin:0 0.5rem;font-size:0.8rem;">Beauty &amp; Cosmetics</a>
+  <a href="https://3dprintsolar.com" style="color:var(--text-secondary);text-decoration:none;margin:0 0.5rem;font-size:0.8rem;">Clean Energy</a>
+  <a href="https://3dprinttitanium.com" style="color:var(--text-secondary);text-decoration:none;margin:0 0.5rem;font-size:0.8rem;">Titanium Printing</a>
+  <a href="https://3dprinttissue.com" style="color:var(--text-secondary);text-decoration:none;margin:0 0.5rem;font-size:0.8rem;">Bioprinting</a>
+</div>
+
+    
+</body>
+</html>

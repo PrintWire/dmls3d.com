@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dmls3d.com/sitemap.xml

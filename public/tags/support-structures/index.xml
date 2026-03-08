@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Support Structures on DMLS 3D</title>
+    <link>https://dmls3d.com/tags/support-structures/</link>
+    <description>Recent content in Support Structures on DMLS 3D</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dmls3d.com/tags/support-structures/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DMLS Design Rules: Wall Thickness, Overhangs, Channels, and Support Strategy</title>
+      <link>https://dmls3d.com/articles/dmls-design-rules/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://dmls3d.com/articles/dmls-design-rules/</guid>
+      <description>The geometry constraints of DMLS are less restrictive than machining but more exacting than polymer 3D printing. Understanding these rules at the design stage eliminates the most expensive build failures.</description>
+    </item>
+  </channel>
+</rss>

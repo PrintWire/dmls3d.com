@@ -11,14 +11,14 @@ theme = "printwire-theme"
   fontPrimary    = "Syne"
   fontSecondary  = "DM Sans"
   fontURL        = "https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,700&display=swap"
-  ogImage        = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1200&q=80"
+  ogImage    = "/images/hero.png"
   favicon        = "🔥"
   pubmedQuery    = "DMLS+direct+metal+laser+sintering+additive+manufacturing+metal+3D+printing"
   contactEmail   = "maxdavisgroup@gmail.com"
   web3formsKey   = "6f33053b-6d08-414b-9615-665f88c98da8"
   xometryId      = "XOMETRY_AFFILIATE_ID"
   domain         = "dmls3d.com"
-  heroImage      = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1200&q=80"
+  heroImage    = "/images/hero.png"
 
 [[params.stats]]
   number = "99.5%"
@@ -39,25 +39,25 @@ theme = "printwire-theme"
 [[params.services]]
   title = "DMLS Production Parts"
   icon  = "◎"
-  image = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=600&q=80"
+  image       = "/images/app-aerospace.png"
   short = "Production-grade DMLS metal parts in Ti6Al4V, 316L, 17-4 PH, AlSi10Mg, Inconel 718, and CoCrMo. 99.5% density guaranteed."
 
 [[params.services]]
   title = "Design for DMLS (DfAM)"
   icon  = "✦"
-  image = "https://images.unsplash.com/photo-1504473089979-b1c4993a9653?w=600&q=80"
+  image       = "/images/app-medical.png"
   short = "Topology optimization, lattice design, support strategy, and design-for-DMLS consultation to maximize performance and reduce cost."
 
 [[params.services]]
   title = "Post-Processing"
   icon  = "⚙"
-  image = "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&q=80"
+  image       = "/images/app-industrial.png"
   short = "Stress relief, HIP, CNC machining to ±0.001\", EDM, bead blast, electropolish, and anodizing — full post-processing chain."
 
 [[params.services]]
   title = "Rapid Prototyping"
   icon  = "◈"
-  image = "https://images.unsplash.com/photo-1564564733489-4f90308b0f7f?w=600&q=80"
+  image       = "/images/app-energy.png"
   short = "48-hour first article for design validation. DMLS prototypes with production material properties for functional testing."
 
 [markup.goldmark.renderer]

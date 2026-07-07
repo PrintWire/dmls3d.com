@@ -1,0 +1,16 @@
+baseURL = "https://dmls3d.com/"
+languageCode = "en-us"
+title = "DMLS 3D"
+
+[params]
+  description = "Your definitive source for Direct Metal Laser Sintering technology, processes, and applications"
+  siteName = "DMLS 3D"
+  tagline = "Your definitive source for Direct Metal Laser Sintering"
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

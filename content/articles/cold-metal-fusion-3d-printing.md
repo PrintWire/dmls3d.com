@@ -4,6 +4,7 @@ date: 2026-06-24T06:01:33-06:00
 draft: false
 description: "Cold metal fusion 3D printing uses SLS equipment with sinterable metal feedstock to produce dense metal parts faster and cheaper than LPBF."
 keywords: ["cold metal fusion 3D printing", "metal additive manufacturing", "SLS metal printing"]
+image: /images/articles/cold-metal-fusion-3d-printing.jpg
 ---
 
 Cold metal fusion 3D printing is an emerging metal additive manufacturing process that routes around many of the cost and throughput constraints that have limited LPBF adoption. Rather than melting metal powder with a high-powered laser in an inert atmosphere, CMF uses existing SLS infrastructure to print polymer-coated metal feedstock, then converts those green parts into dense metal components through standard debinding and sintering steps — the same downstream workflow used in metal injection molding.

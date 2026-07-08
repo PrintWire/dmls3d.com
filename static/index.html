@@ -400,7 +400,7 @@ document.querySelector('.ed-nav-toggle')?.addEventListener('click', () => {
       (items || []).forEach(function(it, i){
         localArts.push({ title: it.title, link: it.url, desc: it.summary || '',
           date: it.iso, dateStr: it.date, source: 'PrintWire', local: true,
-          img: fallbackImgs[i % fallbackImgs.length] });
+          img: it.img || fallbackImgs[i % fallbackImgs.length] });
       });
       if (orig) {
         orig.innerHTML = localArts.length

@@ -16,6 +16,10 @@
       {{ with .Params.author }} &middot; {{ . }}{{ end }}
     </div>
 
+    {{ with .Params.image }}
+    <img src="{{ . }}" alt="{{ $.Title }}" style="width:100%;height:auto;border-radius:8px;margin-bottom:2rem;" loading="lazy">
+    {{ end }}
+
     <div class="article-content">
       {{ .Content }}
     </div>

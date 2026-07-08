@@ -5,6 +5,7 @@ title = "DMLS 3D"
 [params]
   description = "Direct Metal Laser Sintering news, research, and services. The flagship source for DMLS and metal 3D printing technology."
   siteName = "DMLS 3D"
+logoHtml = 'DMLS<span class="ed-logo-accent">3D</span>'
   tagline = "The authoritative source for DMLS and metal additive manufacturing"
 
 [taxonomies]

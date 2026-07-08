@@ -6,8 +6,6 @@ description: "How AI optimization metal 3D printing LPBF digital workflows and v
 keywords: ["AI optimization metal 3D printing LPBF digital workflows vector control", "melt pool monitoring", "closed-loop laser powder bed fusion"]
 ---
 
-# AI Optimization in Metal 3D Printing: Vector Control and Closed-Loop LPBF Digital Workflows
-
 The push toward production-grade reliability in laser powder bed fusion (LPBF) has converged on a single realization: process consistency at the scan vector level is where quality is actually won or lost. AI optimization in metal 3D printing — specifically LPBF digital workflows and vector control — is now a practical differentiator for shops moving parts from prototype to serial production. This article breaks down how these systems work, where the efficiency gains come from, and what adoption realistically looks like.
 
 ---

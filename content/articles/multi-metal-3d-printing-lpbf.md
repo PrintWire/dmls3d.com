@@ -6,8 +6,6 @@ description: "How multi-metal 3D printing LPBF is maturing from production valid
 keywords: ["multi-metal 3D printing LPBF", "functionally graded materials additive manufacturing", "bimetallic LPBF aerospace"]
 ---
 
-# Multi-Metal 3D Printing LPBF: From Apple Watch Cases to Functionally Graded Parts
-
 The Apple Watch stainless steel and titanium cases are not a curiosity — they are a benchmark. Apple's decision to use laser powder bed fusion (LPBF) as a production process for consumer hardware, at volume, with cosmetic surface standards far stricter than most industrial specs, did more to validate multi-metal 3D printing LPBF than any trade show demonstration. In 2026, that validation is being built on by academic researchers and aerospace engineers pushing toward something considerably more complex: parts that are not merely printed from one exotic alloy, but that transition between two or more alloys within a single build.
 
 ---

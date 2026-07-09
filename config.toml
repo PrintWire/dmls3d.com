@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "DMLS 3D"
 
 [params]
+ogImage       = "/images/13-batch-build-plate-overhead.png"
   description = "Direct Metal Laser Sintering news, research, and services. The flagship source for DMLS and metal 3D printing technology."
   siteName = "DMLS 3D"
 logoHtml = 'DMLS<span class="ed-logo-accent">3D</span>'
